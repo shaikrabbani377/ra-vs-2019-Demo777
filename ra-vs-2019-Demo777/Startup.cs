@@ -33,6 +33,7 @@ namespace ra_vs_2019_Demo777
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello Sharat");
                 });
             });
         }
